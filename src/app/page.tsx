@@ -1,9 +1,9 @@
-import { CompassApp } from "@/components/CompassApp";
+import { CheatsheetApp } from "@/components/CheatsheetApp";
 import { confusionGuides, glossary, models, productEntries, providers, useCases } from "@/lib/catalog";
 
 export default function Home() {
   return (
-    <CompassApp
+    <CheatsheetApp
       confusionGuides={confusionGuides}
       glossary={glossary}
       models={models}

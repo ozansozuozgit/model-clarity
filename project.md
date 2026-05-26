@@ -1,4 +1,4 @@
-# AI Compass: Developer AI Model Navigator
+# AI Cheatsheet: Developer AI Model Reference
 
 ## Product Thesis
 
@@ -6,7 +6,7 @@ Developers do not need another generic AI directory. They need a decision tool t
 
 > What model, agent, or provider should I use for this build, and what tradeoffs am I accepting?
 
-AI Compass turns a fast-moving AI market into a clean, source-backed workflow for choosing models and stacks.
+AI Cheatsheet turns a fast-moving AI market into a clean, source-backed reference for choosing models and stacks.
 
 ## Core User Problem
 
