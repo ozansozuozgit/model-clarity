@@ -138,3 +138,11 @@ For new models, prefer official provider docs or APIs over third-party summaries
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+<!-- live-demo:start -->
+## Live Demo
+
+- Production URL: https://model-clarity.vercel.app
+- Source: https://github.com/ozansozuozgit/model-clarity
+
+<!-- live-demo:end -->
