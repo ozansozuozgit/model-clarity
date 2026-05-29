@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "catalog:update": "node scripts/catalog/update-catalog.mjs",
+    "catalog:validate": "node scripts/catalog/validate-catalog.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",

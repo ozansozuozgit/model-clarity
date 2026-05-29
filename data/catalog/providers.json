@@ -1,0 +1,47 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "accent": "oklch(0.58 0.11 174)",
+    "summary": "Broad API platform with strong general models, realtime APIs, tools, and ChatGPT product reach.",
+    "developerAngle": "Often the safest default when you need mature APIs, tool use, realtime options, and broad ecosystem support.",
+    "sourceUrl": "https://developers.openai.com/api/docs/models",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "accent": "oklch(0.62 0.12 42)",
+    "summary": "Claude family with strong long-form reasoning, coding workflows, and Claude Code adoption.",
+    "developerAngle": "Best fit when careful instruction following, coding-agent work, and long-context analysis matter more than raw breadth.",
+    "sourceUrl": "https://docs.anthropic.com/en/docs/about-claude/models/all-models",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "accent": "oklch(0.58 0.14 252)",
+    "summary": "Gemini and Vertex AI ecosystem with deep multimodal context, Workspace adjacency, and Google Cloud deployment.",
+    "developerAngle": "Strongest when the build touches Google Cloud, Search grounding, Workspace, or multimodal repository analysis.",
+    "sourceUrl": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "accent": "oklch(0.64 0.1 116)",
+    "summary": "Grok models and Grok Build for developers who want fast coding-agent workflows and xAI API access.",
+    "developerAngle": "Useful to evaluate for low-cost high-context calls, tool calling, and AI workflows tied to the Grok ecosystem.",
+    "sourceUrl": "https://docs.x.ai/docs/models/grok-4-fast-non-reasoning",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "open-models",
+    "name": "Open models",
+    "accent": "oklch(0.64 0.1 330)",
+    "summary": "Llama, Mistral, DeepSeek, Qwen, Gemma, and other weights for control, hosting flexibility, and cost-sensitive workloads.",
+    "developerAngle": "Best when data residency, custom deployment, fine control, or unit economics beat frontier-model convenience.",
+    "sourceUrl": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
+    "lastVerified": "2026-05-28"
+  }
+]

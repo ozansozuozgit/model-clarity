@@ -1,0 +1,301 @@
+[
+  {
+    "id": "gemini-app",
+    "providerId": "google",
+    "name": "Gemini app",
+    "kind": "App",
+    "plainEnglish": "The consumer chat app. You open it to ask questions, write, plan, search, talk, or use personal assistant features.",
+    "audience": "Everyday users, students, creators, and people using Google accounts.",
+    "useWhen": "You want a ready-made assistant, not an API or cloud deployment.",
+    "skipWhen": "You are building your own product or need enterprise cloud controls.",
+    "developerDetail": "Think of it as Google's ChatGPT-style product surface. It may contain features powered by different Gemini models.",
+    "relatedNames": [
+      "Gemini Live",
+      "Gemini Spark",
+      "Daily Brief",
+      "Google AI Pro",
+      "Google AI Ultra"
+    ],
+    "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "gemini-spark",
+    "providerId": "google",
+    "name": "Gemini Spark",
+    "kind": "Agent",
+    "plainEnglish": "A personal agent inside the Gemini world that can keep working on tasks in the background under your direction.",
+    "audience": "People who want ongoing help across Gmail, Docs, Calendar, and connected apps.",
+    "useWhen": "You want an assistant to monitor, organize, draft, and act across personal or Workspace tasks.",
+    "skipWhen": "You only need a model API, a coding tool, or a one-off chatbot answer.",
+    "developerDetail": "Google says Spark runs on Gemini 3.5 and connects with Antigravity. Treat it as a product/agent, not a model name.",
+    "relatedNames": [
+      "Gemini app",
+      "Daily Brief",
+      "Antigravity",
+      "MCP connections"
+    ],
+    "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "google-ai-studio",
+    "providerId": "google",
+    "name": "Google AI Studio",
+    "kind": "Developer tool",
+    "plainEnglish": "A browser workspace for trying Gemini prompts, testing model behavior, and turning experiments into API calls.",
+    "audience": "Developers, prototypers, and technical product teams.",
+    "useWhen": "You want to quickly test Gemini without setting up a full cloud project first.",
+    "skipWhen": "You need production governance, monitoring, compliance, or team cloud infrastructure.",
+    "developerDetail": "Best understood as the fast prototyping surface for Gemini API work.",
+    "relatedNames": [
+      "Gemini API",
+      "Gemini models",
+      "Vertex AI"
+    ],
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "gemini-api",
+    "providerId": "google",
+    "name": "Gemini API",
+    "kind": "API",
+    "plainEnglish": "The developer API for putting Gemini models inside your own app.",
+    "audience": "Developers building apps, agents, automations, and AI features.",
+    "useWhen": "You want your product to call Gemini directly from code.",
+    "skipWhen": "You only need the Gemini app, or your company requires Google Cloud enterprise controls.",
+    "developerDetail": "This is the model access layer. It is different from the Gemini app and different from Vertex AI.",
+    "relatedNames": [
+      "Google AI Studio",
+      "Gemini models",
+      "Vertex AI"
+    ],
+    "sourceUrl": "https://ai.google.dev/gemini-api/docs",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "vertex-ai",
+    "providerId": "google",
+    "name": "Vertex AI",
+    "kind": "Platform",
+    "plainEnglish": "Google Cloud's managed AI platform for deploying, governing, monitoring, and scaling AI systems.",
+    "audience": "Companies, cloud teams, and developers building production systems on Google Cloud.",
+    "useWhen": "You need enterprise deployment, permissions, data controls, billing, monitoring, or cloud integration.",
+    "skipWhen": "You just want to chat, prototype quickly, or run a small personal script.",
+    "developerDetail": "Vertex AI can serve Gemini and other models, but it is a cloud platform, not a single model.",
+    "relatedNames": [
+      "Google Cloud",
+      "Gemini models",
+      "Model Garden",
+      "Gemini API"
+    ],
+    "sourceUrl": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "google-ai-pro-ultra",
+    "providerId": "google",
+    "name": "Google AI Pro / Ultra",
+    "kind": "Subscription",
+    "plainEnglish": "Paid plans that unlock higher limits and premium AI features across Google's AI products.",
+    "audience": "Power users, creators, professionals, and teams that need more access than the free tier.",
+    "useWhen": "You use Gemini products often and need better limits or premium features.",
+    "skipWhen": "You are comparing raw model APIs or building production cloud infrastructure.",
+    "developerDetail": "A subscription can unlock product access, but it is not the same thing as an API contract or enterprise cloud deployment.",
+    "relatedNames": [
+      "Gemini app",
+      "Gemini Spark",
+      "Gemini Omni",
+      "AI Ultra"
+    ],
+    "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "google-flow",
+    "providerId": "google",
+    "name": "Flow",
+    "kind": "App",
+    "plainEnglish": "A creative video-making product for generating and editing videos with Google's media models.",
+    "audience": "Creators, marketers, filmmakers, and people making visual content.",
+    "useWhen": "You want to make or edit video, not build a model-powered app.",
+    "skipWhen": "You need chat, coding, enterprise deployment, or an API-first workflow.",
+    "developerDetail": "Flow is a creative product surface. The underlying media model names may change independently.",
+    "relatedNames": [
+      "Gemini Omni",
+      "Veo",
+      "Gemini app"
+    ],
+    "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "notebooklm",
+    "providerId": "google",
+    "name": "NotebookLM",
+    "kind": "App",
+    "plainEnglish": "A research and study tool that helps you understand sources you provide.",
+    "audience": "Students, researchers, writers, analysts, and anyone working with documents.",
+    "useWhen": "You want AI grounded in a set of notes, files, or sources.",
+    "skipWhen": "You need a general assistant, a coding tool, or an API for your own app.",
+    "developerDetail": "NotebookLM is a user-facing research product, not the same thing as a RAG API or Vertex AI deployment.",
+    "relatedNames": [
+      "Gemini",
+      "Research",
+      "Google Labs"
+    ],
+    "sourceUrl": "https://notebooklm.google/",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "antigravity",
+    "providerId": "google",
+    "name": "Antigravity",
+    "kind": "Developer tool",
+    "plainEnglish": "Google's AI coding environment and command-line workflow for delegating software tasks.",
+    "audience": "Developers working in codebases.",
+    "useWhen": "You want an AI tool to inspect, edit, run, or reason through code work.",
+    "skipWhen": "You are looking for a general chat app, video generator, or simple model API.",
+    "developerDetail": "Antigravity is a coding tool and workflow. It can use Gemini models, but it is not itself a model ID.",
+    "relatedNames": [
+      "Antigravity CLI",
+      "Gemini CLI",
+      "Gemini models",
+      "Gemini Spark"
+    ],
+    "sourceUrl": "https://www.antigravity.google/docs/cli-using",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "chatgpt",
+    "providerId": "openai",
+    "name": "ChatGPT",
+    "kind": "App",
+    "plainEnglish": "OpenAI's assistant app for chatting, writing, researching, coding help, files, voice, and daily work.",
+    "audience": "Everyone from casual users to professionals.",
+    "useWhen": "You want a polished AI assistant you can use directly.",
+    "skipWhen": "You need to embed the model in your own product through code.",
+    "developerDetail": "ChatGPT is the product surface. OpenAI API is the developer surface.",
+    "relatedNames": [
+      "GPT models",
+      "Codex",
+      "OpenAI API"
+    ],
+    "sourceUrl": "https://openai.com/chatgpt/",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "openai-api",
+    "providerId": "openai",
+    "name": "OpenAI API",
+    "kind": "API",
+    "plainEnglish": "The developer API for adding OpenAI models, tools, structured outputs, and realtime experiences to apps.",
+    "audience": "Developers and product teams.",
+    "useWhen": "You are building your own AI feature, app, agent, or workflow.",
+    "skipWhen": "You only need an assistant you can use directly in a browser.",
+    "developerDetail": "Model names belong here. ChatGPT features may use the same model families but are not the same interface.",
+    "relatedNames": [
+      "Responses API",
+      "Realtime API",
+      "GPT models",
+      "Codex"
+    ],
+    "sourceUrl": "https://developers.openai.com/api/docs/models",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "codex",
+    "providerId": "openai",
+    "name": "Codex",
+    "kind": "Developer tool",
+    "plainEnglish": "OpenAI's coding agent/tooling family for working on software tasks.",
+    "audience": "Developers working with repositories, terminals, and code review.",
+    "useWhen": "You want AI help that understands code changes, tests, and implementation workflows.",
+    "skipWhen": "You want general chat, image generation, or a model API only.",
+    "developerDetail": "Codex is a product/workflow layer. It may use OpenAI models, but it should not be confused with a single model.",
+    "relatedNames": [
+      "ChatGPT",
+      "OpenAI API",
+      "GPT models"
+    ],
+    "sourceUrl": "https://openai.com/codex/",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "claude",
+    "providerId": "anthropic",
+    "name": "Claude",
+    "kind": "App",
+    "plainEnglish": "Anthropic's assistant app for chat, writing, analysis, files, projects, and everyday reasoning.",
+    "audience": "People and teams who want a direct assistant.",
+    "useWhen": "You want to use Claude directly without building an app.",
+    "skipWhen": "You need model calls inside your own software.",
+    "developerDetail": "Claude is the assistant surface. The Anthropic API is the programmable surface.",
+    "relatedNames": [
+      "Claude Code",
+      "Claude API",
+      "Claude models",
+      "Projects"
+    ],
+    "sourceUrl": "https://claude.ai/",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "claude-code",
+    "providerId": "anthropic",
+    "name": "Claude Code",
+    "kind": "Developer tool",
+    "plainEnglish": "Anthropic's coding agent for software projects.",
+    "audience": "Developers working in existing codebases.",
+    "useWhen": "You want Claude to inspect files, plan edits, write code, and help with repo tasks.",
+    "skipWhen": "You need a consumer assistant or a generic model API call.",
+    "developerDetail": "Claude Code is a coding workflow. Claude Sonnet and Opus are model choices that can power coding work.",
+    "relatedNames": [
+      "Claude",
+      "Claude API",
+      "Sonnet",
+      "Opus"
+    ],
+    "sourceUrl": "https://docs.anthropic.com/en/docs/claude-code/overview",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "grok",
+    "providerId": "xai",
+    "name": "Grok",
+    "kind": "App",
+    "plainEnglish": "xAI's assistant product for using Grok models directly.",
+    "audience": "People who want the Grok assistant experience.",
+    "useWhen": "You want to interact with Grok as an app rather than build with the API.",
+    "skipWhen": "You need programmable access in your own product.",
+    "developerDetail": "Grok is the product surface. xAI API and Grok Build are separate developer surfaces.",
+    "relatedNames": [
+      "xAI API",
+      "Grok models",
+      "Grok Build"
+    ],
+    "sourceUrl": "https://docs.x.ai/",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "open-models-product",
+    "providerId": "open-models",
+    "name": "Open-weight models",
+    "kind": "Model",
+    "plainEnglish": "Models whose weights can be run outside the original company's hosted app or API.",
+    "audience": "Developers, researchers, and teams needing more control.",
+    "useWhen": "You need self-hosting, data residency, customization, or tighter cost control.",
+    "skipWhen": "You want the simplest path, best managed tooling, or frontier model quality without ops work.",
+    "developerDetail": "The model may be open, but serving, evals, scaling, monitoring, and safety become your responsibility.",
+    "relatedNames": [
+      "Llama",
+      "Mistral",
+      "Qwen",
+      "DeepSeek",
+      "Gemma"
+    ],
+    "sourceUrl": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
+    "lastVerified": "2026-05-28"
+  }
+]

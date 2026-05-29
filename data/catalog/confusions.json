@@ -1,0 +1,69 @@
+[
+  {
+    "id": "google-gemini-stack",
+    "providerId": "google",
+    "title": "Gemini is not one thing",
+    "question": "Is Gemini the app, the model, the API, or the paid plan?",
+    "answer": "It can refer to a model family, the consumer app, developer APIs, and subscription-powered features. The trick is to identify the object type first.",
+    "choices": [
+      {
+        "label": "I want to use AI personally",
+        "pickWhen": "Start with the Gemini app."
+      },
+      {
+        "label": "I want to test prompts",
+        "pickWhen": "Use Google AI Studio."
+      },
+      {
+        "label": "I want AI in my app",
+        "pickWhen": "Use the Gemini API."
+      },
+      {
+        "label": "I need cloud governance",
+        "pickWhen": "Use Vertex AI."
+      }
+    ]
+  },
+  {
+    "id": "agent-vs-model",
+    "providerId": "google",
+    "title": "Agent names are not model names",
+    "question": "Is Spark or Antigravity a model?",
+    "answer": "No. Spark is a personal agent product. Antigravity is a developer coding tool. They can be powered by Gemini models, but they are not model names.",
+    "choices": [
+      {
+        "label": "Personal task automation",
+        "pickWhen": "Look at Gemini Spark."
+      },
+      {
+        "label": "Coding in a repo",
+        "pickWhen": "Look at Antigravity or other coding agents."
+      },
+      {
+        "label": "Raw model access",
+        "pickWhen": "Look at Gemini API or Vertex AI model endpoints."
+      }
+    ]
+  },
+  {
+    "id": "chat-app-vs-api",
+    "providerId": "openai",
+    "title": "App surface versus API surface",
+    "question": "Is ChatGPT the same thing as the OpenAI API?",
+    "answer": "No. ChatGPT is the finished assistant product. The OpenAI API is the programmable interface developers use inside their own products.",
+    "choices": [
+      {
+        "label": "Use it directly",
+        "pickWhen": "Open ChatGPT."
+      },
+      {
+        "label": "Build with it",
+        "pickWhen": "Use the OpenAI API."
+      },
+      {
+        "label": "Work in code",
+        "pickWhen": "Use Codex-style coding workflows."
+      }
+    ]
+  }
+]

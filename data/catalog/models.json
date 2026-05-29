@@ -1,0 +1,467 @@
+[
+  {
+    "id": "gpt-55",
+    "providerId": "openai",
+    "name": "GPT-5.5",
+    "modelId": "gpt-5.5",
+    "status": "stable",
+    "shortDescription": "Frontier OpenAI model for complex coding, research, and production-grade reasoning.",
+    "bestFor": [
+      "agentic-coding",
+      "workspace-automation",
+      "multimodal-analysis"
+    ],
+    "capabilities": [
+      "coding",
+      "reasoning",
+      "agents",
+      "tool-calling",
+      "structured-output",
+      "multimodal"
+    ],
+    "pricingTier": "premium",
+    "latency": "deep",
+    "contextWindow": "See official model card",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "surfaces": [
+      "Responses API",
+      "ChatGPT",
+      "client SDKs"
+    ],
+    "strengths": [
+      "Mature API surface",
+      "strong tool ecosystem",
+      "broad developer documentation"
+    ],
+    "limitations": [
+      "Premium model economics",
+      "exact availability can vary by API tier"
+    ],
+    "sourceUrl": "https://developers.openai.com/api/docs/models",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "gpt-55-mini",
+    "providerId": "openai",
+    "name": "GPT-5.5 mini",
+    "modelId": "gpt-5.5-mini",
+    "status": "stable",
+    "shortDescription": "Smaller OpenAI model for everyday production work where latency and cost matter.",
+    "bestFor": [
+      "cheap-batch",
+      "rag-search",
+      "workspace-automation"
+    ],
+    "capabilities": [
+      "cost-efficiency",
+      "structured-output",
+      "tool-calling",
+      "multimodal"
+    ],
+    "pricingTier": "balanced",
+    "latency": "balanced",
+    "contextWindow": "See official model card",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "surfaces": [
+      "Responses API",
+      "ChatGPT",
+      "client SDKs"
+    ],
+    "strengths": [
+      "Good default for high-volume tasks",
+      "same platform primitives as larger GPT models"
+    ],
+    "limitations": [
+      "Less headroom for frontier reasoning than GPT-5.5"
+    ],
+    "sourceUrl": "https://developers.openai.com/api/docs/models",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "gpt-realtime",
+    "providerId": "openai",
+    "name": "GPT Realtime",
+    "modelId": "gpt-realtime",
+    "status": "stable",
+    "shortDescription": "Realtime OpenAI family for speech-first applications and live user interaction.",
+    "bestFor": [
+      "realtime-voice",
+      "workspace-automation"
+    ],
+    "capabilities": [
+      "realtime",
+      "multimodal",
+      "tool-calling",
+      "agents"
+    ],
+    "pricingTier": "balanced",
+    "latency": "instant",
+    "contextWindow": "Session-dependent",
+    "modalities": [
+      "audio",
+      "text"
+    ],
+    "surfaces": [
+      "Realtime API",
+      "client SDKs"
+    ],
+    "strengths": [
+      "Low-latency interaction",
+      "speech-native product surface",
+      "tool integration"
+    ],
+    "limitations": [
+      "Needs careful session design and interruption handling"
+    ],
+    "sourceUrl": "https://developers.openai.com/api/docs/models",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "claude-opus-48",
+    "providerId": "anthropic",
+    "name": "Claude Opus 4.8",
+    "modelId": "claude-opus-4-8",
+    "status": "stable",
+    "shortDescription": "Anthropic flagship for complex reasoning, long-horizon coding agents, and high-autonomy work.",
+    "bestFor": [
+      "agentic-coding",
+      "multimodal-analysis",
+      "workspace-automation"
+    ],
+    "capabilities": [
+      "coding",
+      "reasoning",
+      "agents",
+      "tool-calling",
+      "structured-output",
+      "multimodal",
+      "long-context"
+    ],
+    "pricingTier": "premium",
+    "latency": "deep",
+    "contextWindow": "1M tokens",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "surfaces": [
+      "Claude API",
+      "Claude Code",
+      "Bedrock",
+      "Vertex AI"
+    ],
+    "strengths": [
+      "Strong long-horizon agentic coding",
+      "improved tool triggering and compaction handling",
+      "1M-token context on supported Claude API surfaces"
+    ],
+    "limitations": [
+      "Premium latency and cost profile",
+      "some sampling parameters are not supported"
+    ],
+    "sourceUrl": "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "claude-sonnet-46",
+    "providerId": "anthropic",
+    "name": "Claude Sonnet 4.6",
+    "modelId": "claude-sonnet-4-6",
+    "status": "stable",
+    "shortDescription": "Balanced Claude model for coding, agents, writing, and production reasoning.",
+    "bestFor": [
+      "agentic-coding",
+      "rag-search",
+      "workspace-automation"
+    ],
+    "capabilities": [
+      "coding",
+      "reasoning",
+      "agents",
+      "tool-calling",
+      "structured-output",
+      "long-context"
+    ],
+    "pricingTier": "balanced",
+    "latency": "balanced",
+    "contextWindow": "1M tokens",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "surfaces": [
+      "Claude API",
+      "Claude Code",
+      "Bedrock",
+      "Vertex AI"
+    ],
+    "strengths": [
+      "Strong balance of quality and cost",
+      "good coding-agent default",
+      "clear response style"
+    ],
+    "limitations": [
+      "Less frontier headroom than Opus for very hard tasks"
+    ],
+    "sourceUrl": "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "claude-haiku-45",
+    "providerId": "anthropic",
+    "name": "Claude Haiku 4.5",
+    "modelId": "claude-haiku-4-5",
+    "status": "stable",
+    "shortDescription": "Fast Claude model for routed sub-tasks, extraction, and latency-sensitive agent steps.",
+    "bestFor": [
+      "cheap-batch",
+      "rag-search"
+    ],
+    "capabilities": [
+      "cost-efficiency",
+      "structured-output",
+      "tool-calling"
+    ],
+    "pricingTier": "lowest",
+    "latency": "instant",
+    "contextWindow": "200K class",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "surfaces": [
+      "Claude API",
+      "Bedrock",
+      "Vertex AI"
+    ],
+    "strengths": [
+      "Fast and economical",
+      "useful as a sub-agent",
+      "strong extraction fit"
+    ],
+    "limitations": [
+      "Not the first pick for complex planning"
+    ],
+    "sourceUrl": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "gemini-31-pro",
+    "providerId": "google",
+    "name": "Gemini 3.1 Pro",
+    "modelId": "gemini-3.1-pro-preview",
+    "status": "preview",
+    "shortDescription": "Google reasoning model for complex multimodal work, coding, and large-context analysis.",
+    "bestFor": [
+      "multimodal-analysis",
+      "agentic-coding",
+      "workspace-automation"
+    ],
+    "capabilities": [
+      "coding",
+      "reasoning",
+      "agents",
+      "tool-calling",
+      "structured-output",
+      "multimodal",
+      "long-context"
+    ],
+    "pricingTier": "premium",
+    "latency": "deep",
+    "contextWindow": "1M tokens",
+    "modalities": [
+      "text",
+      "code",
+      "image",
+      "audio",
+      "video",
+      "pdf"
+    ],
+    "surfaces": [
+      "Vertex AI",
+      "Gemini API",
+      "Google AI Studio"
+    ],
+    "strengths": [
+      "Huge context",
+      "rich multimodal inputs",
+      "Google Cloud and grounding integration"
+    ],
+    "limitations": [
+      "Preview status changes deployment expectations",
+      "Google Cloud setup can add friction"
+    ],
+    "sourceUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-1-pro",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "gemini-25-flash-lite",
+    "providerId": "google",
+    "name": "Gemini 3.1 Flash-Lite",
+    "modelId": "gemini-3.1-flash-lite",
+    "status": "stable",
+    "shortDescription": "Google cost-efficiency model for high-throughput extraction and simple multimodal tasks.",
+    "bestFor": [
+      "cheap-batch",
+      "rag-search"
+    ],
+    "capabilities": [
+      "cost-efficiency",
+      "structured-output",
+      "multimodal",
+      "long-context"
+    ],
+    "pricingTier": "lowest",
+    "latency": "instant",
+    "contextWindow": "1M tokens",
+    "modalities": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "surfaces": [
+      "Vertex AI",
+      "Gemini API",
+      "Google AI Studio"
+    ],
+    "strengths": [
+      "Very attractive scale economics",
+      "long context for the price class",
+      "good throughput fit"
+    ],
+    "limitations": [
+      "Not ideal for hard reasoning or autonomous coding"
+    ],
+    "sourceUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-1-flash-lite",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "grok-43",
+    "providerId": "xai",
+    "name": "Grok 4.3",
+    "modelId": "grok-4.3",
+    "status": "stable",
+    "shortDescription": "xAI flagship with long context, tool calling, structured output, and configurable reasoning.",
+    "bestFor": [
+      "agentic-coding",
+      "rag-search",
+      "workspace-automation"
+    ],
+    "capabilities": [
+      "coding",
+      "reasoning",
+      "agents",
+      "tool-calling",
+      "structured-output",
+      "multimodal",
+      "long-context"
+    ],
+    "pricingTier": "balanced",
+    "latency": "balanced",
+    "contextWindow": "1M tokens",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "surfaces": [
+      "xAI API",
+      "Grok"
+    ],
+    "strengths": [
+      "Long context",
+      "competitive token pricing",
+      "configurable reasoning"
+    ],
+    "limitations": [
+      "Smaller developer ecosystem than OpenAI, Google, or Anthropic"
+    ],
+    "sourceUrl": "https://docs.x.ai/docs/models/grok-4-fast-non-reasoning",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "grok-build",
+    "providerId": "xai",
+    "name": "Grok Build",
+    "modelId": "grok-build",
+    "status": "product",
+    "shortDescription": "Coding-agent product for interactive, headless, and ACP-driven repo work.",
+    "bestFor": [
+      "agentic-coding",
+      "workspace-automation"
+    ],
+    "capabilities": [
+      "coding",
+      "agents",
+      "tool-calling"
+    ],
+    "pricingTier": "balanced",
+    "latency": "balanced",
+    "contextWindow": "Model-dependent",
+    "modalities": [
+      "text",
+      "code"
+    ],
+    "surfaces": [
+      "CLI",
+      "TUI",
+      "headless scripts",
+      "ACP"
+    ],
+    "strengths": [
+      "Agent workflow primitives",
+      "headless automation mode",
+      "custom model configuration"
+    ],
+    "limitations": [
+      "Product workflow, not a standalone model ID"
+    ],
+    "sourceUrl": "https://docs.x.ai/build/overview",
+    "lastVerified": "2026-05-28"
+  },
+  {
+    "id": "gemma-3",
+    "providerId": "open-models",
+    "name": "Gemma 3",
+    "modelId": "gemma-3",
+    "status": "stable",
+    "shortDescription": "Google open model family for custom hosting, fine control, and lower-cost experiments.",
+    "bestFor": [
+      "cheap-batch",
+      "rag-search"
+    ],
+    "capabilities": [
+      "cost-efficiency",
+      "self-hosting",
+      "multimodal"
+    ],
+    "pricingTier": "lowest",
+    "latency": "balanced",
+    "contextWindow": "128K class",
+    "modalities": [
+      "text",
+      "image"
+    ],
+    "surfaces": [
+      "self-host",
+      "Vertex AI Model Garden",
+      "third-party hosts"
+    ],
+    "strengths": [
+      "Open-weight flexibility",
+      "deployment control",
+      "good fit for constrained environments"
+    ],
+    "limitations": [
+      "Usually needs more ops work and eval discipline than hosted frontier APIs"
+    ],
+    "sourceUrl": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models",
+    "lastVerified": "2026-05-28"
+  }
+]

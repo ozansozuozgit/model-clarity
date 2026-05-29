@@ -1,0 +1,75 @@
+name: Update AI catalog
+
+on:
+  schedule:
+    - cron: "17 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+      CATALOG_REFRESH_VERIFIED: "1"
+      GH_TOKEN: ${{ github.token }}
+      TZ: America/New_York
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Reconcile catalog
+        run: npm run catalog:update
+
+      - name: Validate catalog
+        run: npm run catalog:validate
+
+      - name: Check TypeScript
+        run: npm run typecheck
+
+      - name: Build app
+        run: npm run build
+
+      - name: Open catalog update PR
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No catalog changes detected."
+            exit 0
+          fi
+
+          BRANCH="codex/catalog-auto-update"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add data/catalog reports/catalog-diff.md
+          git commit -m "Update AI catalog"
+          git push --force-with-lease origin "$BRANCH"
+
+          PR_NUMBER="$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number // empty')"
+          if [ -n "$PR_NUMBER" ]; then
+            gh pr edit "$PR_NUMBER" --title "Update AI catalog" --body-file reports/catalog-diff.md
+          else
+            gh pr create \
+              --base "${GITHUB_REF_NAME:-main}" \
+              --head "$BRANCH" \
+              --title "Update AI catalog" \
+              --body-file reports/catalog-diff.md
+          fi

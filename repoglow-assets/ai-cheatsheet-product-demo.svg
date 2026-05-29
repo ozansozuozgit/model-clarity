@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">AI Cheatsheet product demo</title>
+  <desc id="desc">A light theme AI Cheatsheet app screen showing current model names, product lookup, and stack shortlist sections.</desc>
+  <style>
+    .bg { fill: #f8f7f1; }
+    .app { fill: #fbfaf6; stroke: #dedbd2; stroke-width: 1.2; }
+    .panel { fill: #ffffff; stroke: #e1ded5; stroke-width: 1.1; }
+    .soft { fill: #f1f0ea; }
+    .softStroke { fill: #f1f0ea; stroke: #e1ded5; stroke-width: 1; }
+    .accentSoft { fill: #e7f4f5; }
+    .positiveSoft { fill: #edf8f1; }
+    .previewSoft { fill: #f2edf7; }
+    .cautionSoft { fill: #fbf2df; }
+    .ink { fill: #202a35; }
+    .muted { fill: #5d6672; }
+    .faint { fill: #838c98; }
+    .accent { fill: #2e7f93; }
+    .accentStroke { fill: none; stroke: #2e7f93; stroke-width: 1.4; }
+    .positive { fill: #1f714e; }
+    .preview { fill: #8665a7; }
+    .caution { fill: #87632c; }
+    .line { stroke: #e1ded5; stroke-width: 1; }
+    .lineSoft { stroke: #ece9df; stroke-width: 1; }
+    .brandSmall, .kicker, .mono, .tableHead, .count { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    text { font-family: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif; letter-spacing: 0; }
+  </style>
+
+  <rect class="bg" width="1280" height="720"/>
+  <rect class="app" x="34" y="26" width="1212" height="668" rx="24"/>
+
+  <g>
+    <rect x="60" y="44" width="1160" height="58" fill="#fbfaf6"/>
+    <line class="line" x1="60" y1="102" x2="1220" y2="102"/>
+    <text class="ink" x="84" y="69" font-size="18" font-weight="850">AI Cheatsheet</text>
+    <text class="faint brandSmall" x="84" y="88" font-size="10" font-weight="780" letter-spacing="0.7">QUICK REFERENCE</text>
+
+    <g transform="translate(884 56)">
+      <rect class="soft" x="0" y="0" width="66" height="30" rx="15"/>
+      <text class="muted" x="33" y="20" text-anchor="middle" font-size="12" font-weight="760">Models</text>
+    </g>
+    <g transform="translate(954 56)">
+      <rect class="accentSoft" x="0" y="0" width="66" height="30" rx="15"/>
+      <text class="accent" x="33" y="20" text-anchor="middle" font-size="12" font-weight="820">Lookup</text>
+    </g>
+    <g transform="translate(1024 56)">
+      <rect class="soft" x="0" y="0" width="58" height="30" rx="15"/>
+      <text class="muted" x="29" y="20" text-anchor="middle" font-size="12" font-weight="760">Stack</text>
+    </g>
+    <g transform="translate(1086 56)">
+      <rect class="soft" x="0" y="0" width="56" height="30" rx="15"/>
+      <text class="muted" x="28" y="20" text-anchor="middle" font-size="12" font-weight="760">Learn</text>
+    </g>
+    <circle class="soft" cx="1176" cy="71" r="15"/>
+    <path d="M1176 62a9 9 0 1 0 8 13 8 8 0 0 1-8-13z" fill="#69717d"/>
+  </g>
+
+  <g>
+    <text class="faint kicker" x="84" y="139" font-size="11" font-weight="780" letter-spacing="1.1">CHEAT SHEET FOR AI NAMES</text>
+    <text class="ink" x="84" y="174" font-size="29" font-weight="850">AI model and product reference</text>
+    <text class="muted" x="84" y="203" font-size="15" font-weight="500">Start with API-ready model names. Use lookup when a vendor page mentions an app, agent,</text>
+    <text class="muted" x="84" y="224" font-size="15" font-weight="500">subscription, or tool you do not recognize.</text>
+
+    <g transform="translate(834 132)">
+      <text class="faint mono" x="0" y="0" font-size="11">11 model IDs</text>
+      <text class="faint mono" x="132" y="0" font-size="11">16 product and tool names</text>
+      <text class="faint mono" x="326" y="0" font-size="11">3 mixups</text>
+    </g>
+  </g>
+
+  <g transform="translate(84 252)">
+    <rect class="panel" x="0" y="0" width="710" height="282" rx="8"/>
+    <text class="faint kicker" x="20" y="31" font-size="10" font-weight="780" letter-spacing="1">MODEL CHEAT SHEET</text>
+    <text class="ink" x="20" y="58" font-size="20" font-weight="850">Current model names</text>
+    <text class="muted" x="20" y="81" font-size="12.5">API-ready model IDs, status, and one-line fit notes.</text>
+
+    <text class="faint kicker" x="20" y="113" font-size="10" font-weight="780" letter-spacing="1">PROVIDER</text>
+    <g transform="translate(94 94)">
+      <rect class="accentSoft" x="0" y="0" width="58" height="27" rx="13.5"/>
+      <text class="accent" x="20" y="18" font-size="11.5" font-weight="820">All</text>
+      <text class="accent mono" x="39" y="18" font-size="10">11</text>
+    </g>
+    <g transform="translate(160 94)">
+      <rect class="soft" x="0" y="0" width="74" height="27" rx="13.5"/>
+      <circle cx="14" cy="13.5" r="4" fill="#23a88a"/>
+      <text class="muted" x="24" y="18" font-size="11.5" font-weight="760">OpenAI</text>
+    </g>
+    <g transform="translate(242 94)">
+      <rect class="soft" x="0" y="0" width="88" height="27" rx="13.5"/>
+      <circle cx="14" cy="13.5" r="4" fill="#c47434"/>
+      <text class="muted" x="24" y="18" font-size="11.5" font-weight="760">Anthropic</text>
+    </g>
+    <g transform="translate(338 94)">
+      <rect class="soft" x="0" y="0" width="76" height="27" rx="13.5"/>
+      <circle cx="14" cy="13.5" r="4" fill="#397de0"/>
+      <text class="muted" x="24" y="18" font-size="11.5" font-weight="760">Google</text>
+    </g>
+    <g transform="translate(422 94)">
+      <rect class="soft" x="0" y="0" width="52" height="27" rx="13.5"/>
+      <circle cx="14" cy="13.5" r="4" fill="#78a83f"/>
+      <text class="muted" x="24" y="18" font-size="11.5" font-weight="760">xAI</text>
+    </g>
+
+    <line class="line" x1="0" y1="136" x2="710" y2="136"/>
+    <text class="faint tableHead" x="18" y="158" font-size="10" font-weight="780">PROVIDER</text>
+    <text class="faint tableHead" x="122" y="158" font-size="10" font-weight="780">MODEL</text>
+    <text class="faint tableHead" x="262" y="158" font-size="10" font-weight="780">MODEL ID</text>
+    <text class="faint tableHead" x="430" y="158" font-size="10" font-weight="780">STATUS</text>
+    <text class="faint tableHead" x="516" y="158" font-size="10" font-weight="780">TIER</text>
+    <text class="faint tableHead" x="588" y="158" font-size="10" font-weight="780">BEST READ</text>
+
+    <g transform="translate(0 172)">
+      <rect class="soft" x="0" y="0" width="710" height="34"/>
+      <circle cx="26" cy="17" r="4" fill="#23a88a"/>
+      <text class="muted" x="38" y="22" font-size="12">OpenAI</text>
+      <text class="ink" x="122" y="22" font-size="12.5" font-weight="850">GPT-5.5</text>
+      <text class="ink mono" x="262" y="22" font-size="11.5">gpt-5.5</text>
+      <rect class="positiveSoft" x="430" y="8" width="54" height="19" rx="9.5"/>
+      <text class="positive" x="457" y="22" text-anchor="middle" font-size="9.5" font-weight="850">stable</text>
+      <rect class="softStroke" x="516" y="8" width="59" height="19" rx="9.5"/>
+      <text class="muted" x="545" y="22" text-anchor="middle" font-size="10">Premium</text>
+      <text class="muted" x="588" y="22" font-size="11.5">Complex coding</text>
+    </g>
+    <g transform="translate(0 206)">
+      <circle cx="26" cy="17" r="4" fill="#c47434"/>
+      <text class="muted" x="38" y="22" font-size="12">Anthropic</text>
+      <text class="ink" x="122" y="22" font-size="12.5" font-weight="850">Claude Sonnet 4.6</text>
+      <text class="ink mono" x="262" y="22" font-size="11.5">claude-sonnet-4-6</text>
+      <rect class="positiveSoft" x="430" y="8" width="54" height="19" rx="9.5"/>
+      <text class="positive" x="457" y="22" text-anchor="middle" font-size="9.5" font-weight="850">stable</text>
+      <rect class="softStroke" x="516" y="8" width="62" height="19" rx="9.5"/>
+      <text class="muted" x="547" y="22" text-anchor="middle" font-size="10">Balanced</text>
+      <text class="muted" x="588" y="22" font-size="11.5">Coding agents</text>
+    </g>
+    <g transform="translate(0 240)">
+      <rect class="soft" x="0" y="0" width="710" height="34"/>
+      <circle cx="26" cy="17" r="4" fill="#397de0"/>
+      <text class="muted" x="38" y="22" font-size="12">Google</text>
+      <text class="ink" x="122" y="22" font-size="12.5" font-weight="850">Gemini 3.1 Pro</text>
+      <text class="ink mono" x="262" y="22" font-size="11.5">gemini-3.1-pro-preview</text>
+      <rect class="previewSoft" x="430" y="8" width="58" height="19" rx="9.5"/>
+      <text class="preview" x="459" y="22" text-anchor="middle" font-size="9.5" font-weight="850">preview</text>
+      <rect class="softStroke" x="516" y="8" width="59" height="19" rx="9.5"/>
+      <text class="muted" x="545" y="22" text-anchor="middle" font-size="10">Premium</text>
+      <text class="muted" x="588" y="22" font-size="11.5">Multimodal</text>
+    </g>
+  </g>
+
+  <g transform="translate(814 252)">
+    <rect class="panel" x="0" y="0" width="382" height="282" rx="8"/>
+    <text class="faint kicker" x="18" y="31" font-size="10" font-weight="780" letter-spacing="1">PRODUCT LOOKUP</text>
+    <text class="ink" x="18" y="58" font-size="20" font-weight="850">Search names</text>
+    <text class="muted" x="18" y="81" font-size="12.5">Find apps, agents, APIs, subscriptions, and tools.</text>
+    <g transform="translate(18 99)">
+      <rect class="soft" x="0" y="0" width="346" height="39" rx="8"/>
+      <circle cx="18" cy="19" r="6" fill="none" stroke="#838c98" stroke-width="1.5"/>
+      <line x1="22.5" y1="23.5" x2="29" y2="30" stroke="#838c98" stroke-width="1.5"/>
+      <text class="ink" x="42" y="25" font-size="14" font-weight="760">Gemini API</text>
+      <text class="faint mono" x="318" y="25" font-size="10">1</text>
+    </g>
+    <g transform="translate(18 151)">
+      <rect class="accentSoft" x="0" y="0" width="86" height="25" rx="12.5"/>
+      <text class="accent" x="43" y="17" text-anchor="middle" font-size="11" font-weight="820">Gemini API</text>
+      <rect class="soft" x="94" y="0" width="86" height="25" rx="12.5"/>
+      <text class="muted" x="137" y="17" text-anchor="middle" font-size="11" font-weight="760">Claude Code</text>
+      <rect class="soft" x="188" y="0" width="66" height="25" rx="12.5"/>
+      <text class="muted" x="221" y="17" text-anchor="middle" font-size="11" font-weight="760">ChatGPT</text>
+      <rect class="soft" x="262" y="0" width="51" height="25" rx="12.5"/>
+      <text class="muted" x="287.5" y="17" text-anchor="middle" font-size="11" font-weight="760">Grok</text>
+    </g>
+    <line class="line" x1="0" y1="190" x2="382" y2="190"/>
+    <text class="faint kicker" x="18" y="214" font-size="10" font-weight="780" letter-spacing="1">GOOGLE / API</text>
+    <text class="ink" x="18" y="239" font-size="19" font-weight="850">Gemini API</text>
+    <text class="muted" x="142" y="213" font-size="12.5">Plain answer</text>
+    <text class="ink" x="142" y="235" font-size="12.5">The developer API for putting</text>
+    <text class="ink" x="142" y="253" font-size="12.5">Gemini models inside your app.</text>
+    <text class="accent" x="18" y="266" font-size="12" font-weight="850">Copy answer</text>
+    <text class="accent" x="108" y="266" font-size="12" font-weight="850">Docs</text>
+  </g>
+
+  <g transform="translate(84 554)">
+    <rect class="panel" x="0" y="0" width="1112" height="106" rx="8"/>
+    <text class="faint kicker" x="20" y="30" font-size="10" font-weight="780" letter-spacing="1">STACK BUILDER</text>
+    <text class="ink" x="20" y="57" font-size="20" font-weight="850">Stack shortlist</text>
+    <text class="muted" x="20" y="82" font-size="12.5">Set your job and constraints. Copy the result into a ticket or planning doc.</text>
+
+    <g transform="translate(372 22)">
+      <text class="faint kicker" x="0" y="0" font-size="10" font-weight="780" letter-spacing="1">JOB</text>
+      <rect class="soft" x="0" y="12" width="126" height="32" rx="8"/>
+      <text class="ink" x="16" y="33" font-size="12.5" font-weight="760">Coding agent</text>
+    </g>
+    <g transform="translate(516 22)">
+      <text class="faint kicker" x="0" y="0" font-size="10" font-weight="780" letter-spacing="1">BUDGET</text>
+      <rect class="accentSoft" x="0" y="12" width="84" height="32" rx="8"/>
+      <text class="accent" x="42" y="33" text-anchor="middle" font-size="12" font-weight="820">Balanced</text>
+    </g>
+    <g transform="translate(616 22)">
+      <text class="faint kicker" x="0" y="0" font-size="10" font-weight="780" letter-spacing="1">SPEED</text>
+      <rect class="soft" x="0" y="12" width="70" height="32" rx="8"/>
+      <text class="muted" x="35" y="33" text-anchor="middle" font-size="12" font-weight="760">Normal</text>
+    </g>
+    <g transform="translate(708 16)">
+      <rect class="softStroke" x="0" y="0" width="384" height="72" rx="8"/>
+      <text class="faint tableHead" x="14" y="22" font-size="10">RANK</text>
+      <text class="faint tableHead" x="58" y="22" font-size="10">MODEL</text>
+      <text class="faint tableHead" x="213" y="22" font-size="10">MODEL ID</text>
+      <text class="faint tableHead" x="334" y="22" font-size="10">FIT</text>
+      <line class="lineSoft" x1="0" y1="30" x2="384" y2="30"/>
+      <text class="muted mono" x="18" y="50" font-size="11">1</text>
+      <text class="ink" x="58" y="50" font-size="12" font-weight="850">Claude Sonnet 4.6</text>
+      <text class="ink mono" x="213" y="50" font-size="10.8">claude-sonnet-4-6</text>
+      <text class="accent mono" x="340" y="50" font-size="11" font-weight="850">96</text>
+      <text class="muted mono" x="18" y="67" font-size="11">2</text>
+      <text class="ink" x="58" y="67" font-size="12" font-weight="850">Grok 4.3</text>
+      <text class="ink mono" x="213" y="67" font-size="10.8">grok-4.3</text>
+      <text class="accent mono" x="340" y="67" font-size="11" font-weight="850">96</text>
+    </g>
+  </g>
+</svg>

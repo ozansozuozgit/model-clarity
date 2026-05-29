@@ -1,0 +1,42 @@
+[
+  {
+    "id": "opus-48",
+    "date": "2026-05-28",
+    "providerId": "anthropic",
+    "title": "Claude Opus 4.8 becomes Anthropic's flagship Opus model",
+    "impact": "Teams using Opus for coding agents, long-horizon work, or high-autonomy tasks should re-check prompts, tool use, effort defaults, and fast mode.",
+    "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-8"
+  },
+  {
+    "id": "gpt-55-api",
+    "date": "2026-05-07",
+    "providerId": "openai",
+    "title": "GPT-5.5 expands developer availability",
+    "impact": "Re-check hard coding, research, and cyber-defense workflows that were pinned to older GPT or reasoning models.",
+    "sourceUrl": "https://developers.openai.com/api/docs/models"
+  },
+  {
+    "id": "opus-47",
+    "date": "2026-04-16",
+    "providerId": "anthropic",
+    "title": "Claude Opus 4.7 enters the frontier coding conversation",
+    "impact": "Teams using Claude Code should compare Opus for hard planning steps and Sonnet for day-to-day edit loops.",
+    "sourceUrl": "https://platform.claude.com/docs/claude/docs/models-overview"
+  },
+  {
+    "id": "gemini-31-pro",
+    "date": "2025-11-18",
+    "providerId": "google",
+    "title": "Gemini 3.1 Pro preview supersedes Gemini 3 Pro",
+    "impact": "Large repo, PDF, audio, and video analysis should be tested against Google Cloud constraints and preview status.",
+    "sourceUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-1-pro"
+  },
+  {
+    "id": "grok-build",
+    "date": "2026-04-12",
+    "providerId": "xai",
+    "title": "Grok Build documents interactive and headless coding-agent flows",
+    "impact": "Useful for developers comparing coding-tool ergonomics, not just raw model quality.",
+    "sourceUrl": "https://docs.x.ai/build/overview"
+  }
+]
