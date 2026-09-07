@@ -17,7 +17,7 @@
       "Google AI Ultra"
     ],
     "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "gemini-spark",
@@ -36,7 +36,7 @@
       "MCP connections"
     ],
     "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "google-ai-studio",
@@ -54,7 +54,7 @@
       "Vertex AI"
     ],
     "sourceUrl": "https://ai.google.dev/gemini-api/docs",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "gemini-api",
@@ -72,7 +72,7 @@
       "Vertex AI"
     ],
     "sourceUrl": "https://ai.google.dev/gemini-api/docs",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "vertex-ai",
@@ -91,7 +91,7 @@
       "Gemini API"
     ],
     "sourceUrl": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "google-ai-pro-ultra",
@@ -110,7 +110,7 @@
       "AI Ultra"
     ],
     "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "google-flow",
@@ -128,7 +128,7 @@
       "Gemini app"
     ],
     "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "notebooklm",
@@ -146,7 +146,7 @@
       "Google Labs"
     ],
     "sourceUrl": "https://notebooklm.google/",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "antigravity",
@@ -165,7 +165,7 @@
       "Gemini Spark"
     ],
     "sourceUrl": "https://www.antigravity.google/docs/cli-using",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "chatgpt",
@@ -183,7 +183,7 @@
       "OpenAI API"
     ],
     "sourceUrl": "https://openai.com/chatgpt/",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "openai-api",
@@ -202,7 +202,7 @@
       "Codex"
     ],
     "sourceUrl": "https://developers.openai.com/api/docs/models",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "codex",
@@ -220,7 +220,7 @@
       "GPT models"
     ],
     "sourceUrl": "https://openai.com/codex/",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "claude",
@@ -239,7 +239,7 @@
       "Projects"
     ],
     "sourceUrl": "https://claude.ai/",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "claude-code",
@@ -258,7 +258,7 @@
       "Opus"
     ],
     "sourceUrl": "https://docs.anthropic.com/en/docs/claude-code/overview",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "grok",
@@ -276,7 +276,7 @@
       "Grok Build"
     ],
     "sourceUrl": "https://docs.x.ai/",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   },
   {
     "id": "open-models-product",
@@ -296,6 +296,6 @@
       "Gemma"
     ],
     "sourceUrl": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
-    "lastVerified": "2026-05-28"
+    "lastVerified": "2026-09-07"
   }
 ]
